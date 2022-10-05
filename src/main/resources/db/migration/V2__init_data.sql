@@ -1,2 +1,2 @@
-INSERT INTO roles(id, uuid, role) VALUES(nextval('id_sequence_generator'), 'GHjnmkopl78G', 'ROLE_USER'),
-                                        (nextval('id_sequence_generator'), 'GHjnmkjkl78G', 'ROLE_ADMIN');
+INSERT INTO roles(id, uuid, role) VALUES(nextval('role_id_sequence_generator'), 'GHjnmkopl78G', 'ROLE_USER'),
+                                        (nextval('role_id_sequence_generator'), 'GHjnmkjkl78G', 'ROLE_ADMIN');

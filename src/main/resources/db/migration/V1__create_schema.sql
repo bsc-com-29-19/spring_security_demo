@@ -1,4 +1,5 @@
-create sequence id_sequence_generator start 1 increment 1;
+create sequence role_id_sequence_generator start 1 increment 1;
+create sequence user_id_sequence_generator start 1 increment 1;
 
 create table roles (
                        id int8 not null,
